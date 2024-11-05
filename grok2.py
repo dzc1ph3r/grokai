@@ -6,7 +6,7 @@ user_content = input("Enter your prompt: ")
 url = "https://api.x.ai/v1/chat/completions"
 headers = {
     "Content-Type": "application/json",
-    "Authorization": ""  # Your API from https://console.x.ai/
+    "Authorization": "Bearer "  # Your API from https://console.x.ai/
 }
 data = {
     "messages": [
